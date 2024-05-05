@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <img src="image.jpg" alt="Movie Image" />
+      <div class="card-content">
+        <div class="title">Inception</div>
+        <div class="rating">Rating: 8.8</div>
+        <div class="duration">Duration: 148 mins</div>
+        <div class="more-info">
+          <p><strong>Director:</strong> Christopher Nolan</p>
+          <p>
+            <strong>Cast:</strong> Leonardo DiCaprio, Joseph Gordon-Levitt,
+            Ellen Page
+          </p>
+          <p>
+            <strong>Description:</strong> A thief who enters the dreams of
+            others to steal their secrets faces a new challenge: planting an
+            idea into someone's mind.
+          </p>
+          <div class="comments">
+            <div class="new-comments"></div>
+            <input
+              type="text"
+              class="comment-input"
+              placeholder="Add a comment"
+            />
+            <button class="comment-btn">Add Comment</button>
+          </div>
+        </div>
+        <div class="more-info-btn">More Info</div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
